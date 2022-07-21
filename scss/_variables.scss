@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+$font_cursiva: Courgette;
+
+@mixin Titulos {
+    font-family: $font_cursiva;
+    text-align: center;
+    border-top: 2px darkcyan double;
+    border-bottom: 2px darkcyan double;
+}

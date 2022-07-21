@@ -1,5 +1,33 @@
 main{
     grid-area: main;
-    background-color: whitesmoke;
-    height: 100%;
+
+    img{
+        width: 100%;
+    }
+
+    h2{
+        @include Titulos
+    }
+}
+
+.container_productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5% ;
+    margin-right: 5% ;
+}
+
+.items{
+    border: 4px #000 solid;
+    height: 25%;
+    width: 25%;
+    background-color: #000;
+    
+    h3{
+        @include Titulos;
+        color: whitesmoke;
+        background-color: #000;
+        border: none;
+    }
 }

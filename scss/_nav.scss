@@ -29,6 +29,7 @@ nav{
             padding-right: 2%;
             
             a{
+                font-family: $font_cursiva;
                 font-size: 100%;
                 color: #000;
             }
@@ -37,10 +38,6 @@ nav{
 }
 
 .navbar-brand{
-    margin-left: 1%;
+    margin: auto auto auto 1%;
     text-align: left;
-
-    img{
-        text-align: left;
-    }
 }

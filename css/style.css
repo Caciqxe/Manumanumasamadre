@@ -1,10 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 body {
   background-color: #CFAC89; }
 
 .Grid {
   display: grid;
   grid-template-areas: "nav" "main" "footer";
-  grid-template-rows: 90% 5% 5%;
+  grid-template-rows: 5% auto 5%;
   grid-template-columns: auto; }
 
 nav {
@@ -33,19 +34,44 @@ nav {
     nav ul li {
       padding-right: 2%; }
       nav ul li a {
+        font-family: Courgette;
         font-size: 100%;
         color: #000; }
 
 .navbar-brand {
-  margin-left: 1%;
+  margin: auto auto auto 1%;
   text-align: left; }
-  .navbar-brand img {
-    text-align: left; }
 
 main {
-  grid-area: main;
-  background-color: whitesmoke;
-  height: 100%; }
+  grid-area: main; }
+  main img {
+    width: 100%; }
+  main h2 {
+    font-family: Courgette;
+    text-align: center;
+    border-top: 2px darkcyan double;
+    border-bottom: 2px darkcyan double; }
+
+.container_productos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%; }
+
+.items {
+  border: 4px #000 solid;
+  height: 25%;
+  width: 25%;
+  background-color: #000; }
+  .items h3 {
+    font-family: Courgette;
+    text-align: center;
+    border-top: 2px darkcyan double;
+    border-bottom: 2px darkcyan double;
+    color: whitesmoke;
+    background-color: #000;
+    border: none; }
 
 footer {
   grid-area: footer;
