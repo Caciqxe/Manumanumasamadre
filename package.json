@@ -1,0 +1,28 @@
+{
+  "name": "manumanumasamadre",
+  "version": "1.0.0",
+  "description": "Manu masa madre informacion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caciqxe/Manumanumasamadre.git"
+  },
+  "keywords": [
+    "Masamadre"
+  ],
+  "author": "Caciqxe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Caciqxe/Manumanumasamadre/issues"
+  },
+  "homepage": "https://github.com/Caciqxe/Manumanumasamadre#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
