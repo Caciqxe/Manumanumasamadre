@@ -1,0 +1,18 @@
+@media only screen and (max-width: 769px) {
+    
+    .container_productos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .items{
+        margin-bottom: 5% ;
+        border: 4px #000 solid;
+        height: 100%;
+        width: 100%;
+        background-color: #000;
+        
+    }
+}

@@ -16,7 +16,7 @@ nav {
   top: 0;
   opacity: 0.9;
   z-index: 100;
-  background: #87F5FB; }
+  background-color: #ecddb6; }
   nav:hover {
     background-color: #437C90;
     box-shadow: 5px 5px 10px #000;
@@ -64,6 +64,9 @@ main {
   height: 25%;
   width: 25%;
   background-color: #000; }
+  .items:hover {
+    box-shadow: 10px 10px 15px whitesmoke;
+    transition: 1s; }
   .items h3 {
     font-family: Courgette;
     text-align: center;
@@ -76,3 +79,16 @@ main {
 footer {
   grid-area: footer;
   background-color: deeppink; }
+
+@media only screen and (max-width: 769px) {
+  .container_productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center; }
+  .items {
+    margin-bottom: 5%;
+    border: 4px #000 solid;
+    height: 100%;
+    width: 100%;
+    background-color: #000; } }
